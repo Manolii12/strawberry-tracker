@@ -1,6 +1,6 @@
 // Service Worker: macht die App offline-fähig.
 // Bei jeder Code-Änderung VERSION erhöhen, damit das iPhone die neue Version lädt.
-const VERSION = 'strawberry-v4';
+const VERSION = 'strawberry-v5';
 const FILES = [
   './', 'index.html', 'manifest.webmanifest', 'css/styles.css',
   'js/app.js', 'js/db.js', 'js/ui.js', 'js/util.js', 'js/cycle.js', 'js/data.js', 'js/tips.js', 'js/tips-data.js', 'js/lock.js',
