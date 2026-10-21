@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Strawberry Tracker</title>
+  <meta name="description" content="Privater Zyklus-Tracker – alle Daten bleiben auf deinem Gerät.">
+  <meta name="theme-color" content="#FBF3EA" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#221521" media="(prefers-color-scheme: dark)">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Strawberry">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 0.35  0 0 0 0 0.2  0 0 0 0 0.15  0 0 0 0.09 0"/>
+    </filter>
+  </svg>
+  <div class="paper" aria-hidden="true"><svg width="100%" height="100%"><rect width="100%" height="100%" filter="url(#grain)"/></svg></div>
+
+  <div id="app">
+    <main id="view" tabindex="-1"></main>
+    <nav class="tabbar" aria-label="Navigation">
+      <a href="#/heute" data-tab="heute"><span class="ti">🍓</span><span>Heute</span></a>
+      <a href="#/kalender" data-tab="kalender"><span class="ti">🗓️</span><span>Kalender</span></a>
+      <button type="button" class="tab-add" data-action="log-today" aria-label="Heute eintragen">＋</button>
+      <a href="#/einblicke" data-tab="einblicke"><span class="ti">🌷</span><span>Einblicke</span></a>
+      <a href="#/wissen" data-tab="wissen"><span class="ti">📖</span><span>Wissen</span></a>
+    </nav>
+  </div>
+
+  <div id="sheet-root"></div>
+  <div id="lock-root"></div>
+  <div id="toast" role="status" aria-live="polite"></div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

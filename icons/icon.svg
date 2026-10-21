@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bg" cx="30%" cy="25%" r="90%">
+      <stop offset="0" stop-color="#FFE9D6"/>
+      <stop offset="0.6" stop-color="#FFC9B9"/>
+      <stop offset="1" stop-color="#F5A3B5"/>
+    </radialGradient>
+    <radialGradient id="berry" cx="38%" cy="35%" r="75%">
+      <stop offset="0" stop-color="#FF7A7A"/>
+      <stop offset="0.55" stop-color="#E8364F"/>
+      <stop offset="1" stop-color="#B0173A"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <circle cx="420" cy="96" r="58" fill="#F9D56E" opacity="0.85"/>
+  <circle cx="86" cy="440" r="44" fill="#B9A4E8" opacity="0.7"/>
+  <path d="M256 150c86 0 150 40 150 112 0 92-82 176-150 196-68-20-150-104-150-196 0-72 64-112 150-112z" fill="url(#berry)"/>
+  <g fill="#FFE7A8">
+    <ellipse cx="196" cy="236" rx="7" ry="11" transform="rotate(-15 196 236)"/>
+    <ellipse cx="256" cy="222" rx="7" ry="11"/>
+    <ellipse cx="316" cy="236" rx="7" ry="11" transform="rotate(15 316 236)"/>
+    <ellipse cx="166" cy="292" rx="7" ry="11" transform="rotate(-20 166 292)"/>
+    <ellipse cx="226" cy="284" rx="7" ry="11" transform="rotate(-6 226 284)"/>
+    <ellipse cx="286" cy="284" rx="7" ry="11" transform="rotate(6 286 284)"/>
+    <ellipse cx="346" cy="292" rx="7" ry="11" transform="rotate(20 346 292)"/>
+    <ellipse cx="200" cy="346" rx="7" ry="11" transform="rotate(-14 200 346)"/>
+    <ellipse cx="256" cy="342" rx="7" ry="11"/>
+    <ellipse cx="312" cy="346" rx="7" ry="11" transform="rotate(14 312 346)"/>
+    <ellipse cx="232" cy="398" rx="6" ry="10" transform="rotate(-8 232 398)"/>
+    <ellipse cx="280" cy="398" rx="6" ry="10" transform="rotate(8 280 398)"/>
+  </g>
+  <path d="M256 168c-30-36-80-40-104-24 30 4 52 18 66 34-34-6-66 4-80 22 34-6 66 0 90 10-10 14-14 30-10 44 18-14 30-30 38-48 8 18 20 34 38 48 4-14 0-30-10-44 24-10 56-16 90-10-14-18-46-28-80-22 14-16 36-30 66-34-24-16-74-12-104 24z" fill="#4FA35B"/>
+  <path d="M256 170c-2-30 6-58 26-78" stroke="#3C7F45" stroke-width="12" stroke-linecap="round" fill="none"/>
+</svg>
