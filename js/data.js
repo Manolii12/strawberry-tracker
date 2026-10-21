@@ -43,10 +43,9 @@ export const LEVELS = {
 export const ACTIVITIES = [
   { id: 'ruhetag', label: 'Ruhetag', emoji: '🛋️' },
   { id: 'spaziergang', label: 'Spaziergang', emoji: '🚶' },
+  { id: 'wandern', label: 'Wandern', emoji: '🥾' },
   { id: 'yoga', label: 'Yoga', emoji: '🧘' },
-  { id: 'dehnen', label: 'Dehnen', emoji: '🤸' },
   { id: 'pilates', label: 'Pilates', emoji: '🪢' },
-  { id: 'gym', label: 'Gym', emoji: '💪' },
   { id: 'krafttraining', label: 'Krafttraining', emoji: '🏋️' },
   { id: 'bouldern', label: 'Bouldern', emoji: '🪨' },
   { id: 'klettern', label: 'Klettern', emoji: '🧗' },
